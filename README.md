@@ -29,5 +29,23 @@ app.get('/', (request, response) => { //enviando uma resposta
 
 app.listen(3333); //executando em uma porta
 
+//instalando o nodemon para reiniciar o servidor node js toda vez que for salvo alterações
+npm install nodemon -D //o "-D" quer dizer que é uma opção de desenvolvedor
+
 //criando um react app
 npx create-react-app [nome do app]
+
+//instalando lib para montar o relacionamento do banco
+npm install knex
+
+//criar arquivo de conexão do banco
+npx knex init
+
+//criando uma migration
+npx knex migrate:make [nome da migration]
+
+//rodando uma migration
+npx knex migrate:latest
+
+//determinando quem pode acessar a aplicação
+mpm install cors
