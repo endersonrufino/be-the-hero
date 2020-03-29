@@ -49,3 +49,6 @@ npx knex migrate:latest
 
 //determinando quem pode acessar a aplicação
 mpm install cors
+
+//cliente http, para fazer as chamadas entre o front end e o back end
+npm install axios
