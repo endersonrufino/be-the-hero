@@ -52,3 +52,20 @@ mpm install cors
 
 //cliente http, para fazer as chamadas entre o front end e o back end
 npm install axios
+
+#APP MOBILE
+
+//instalando o expo global
+npm install -g expo-cli
+
+//criando um projeto
+expo init [nome do projeto] 
+ - template: blank
+ 
+//instalando o pacote de navegação
+npm install @react-navigation/native
+ - dependecias se estiver usando o expo
+ 
+ -instalando o tipo de navegação
+  npm install @react-navigation/stack
+
